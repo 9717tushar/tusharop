@@ -89,11 +89,11 @@ def get_readable_time(seconds: int) -> str:
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        text = "Pong!"
+        text = " 𝐄𝐕𝐈𝐋 𝐒𝐏𝐀𝐌𝐌𝐄𝐑"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\nϟ ʀɪᴢᴏᴇʟ X sᴘᴀᴍ ϟ︎ `{ms}` ᴍs")
+        await event.edit(f"𝙏𝙐𝙎𝙃𝘼𝙍 𝙋𝘼𝙋𝘼ϟ 𝐄𝐕𝐈𝐋 𝙓 𝙎𝙋𝘼𝙈 ϟ︎ `{ms}` ᴍs")
         
         
 
